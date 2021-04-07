@@ -10,7 +10,7 @@ def get_content(url):
 if __name__=='__main__':
     book_name="诡秘之王.txt"
     server='https://www.vbiquge.com'
-    target='https://www.vbiquge.com/15_15338/'
+    target='https://www.vbiquge.com/98_98265/'
     req=requests.get(url=target)
     req.encoding='utf-8'
     html=req.text
